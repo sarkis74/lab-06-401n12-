@@ -7,4 +7,4 @@
 **Links and Resources**
 
 
-![repo](https://github.com/sarkis74/simple-api/blob/master/)
+![repo](https://github.com/sarkis74/simple-api/blob/master)
