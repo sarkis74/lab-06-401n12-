@@ -1,12 +1,12 @@
 {
   "swagger": "2.0",
   "info": {
-    "description": "",
+    "description": "This is to test that the json editing shows on the site's end.",
     "version": "1.0.0",
-    "title": ""
+    "title": "Code Fellows Lab Test"
   },
   "paths": {
-    "": {
+    "/entertainment": {
       "get": {
         "description": "",
         "responses": {
@@ -14,27 +14,6 @@
             "description": "",
             "schema": {
               "$ref": ""
-            }
-          }
-        }
-      }
-    },
-    "": {
-      "parameters": [
-        {
-          "in": "",
-          "name": "",
-          "required": ,
-          "type": ""
-        }
-      ],
-      "": {
-        "description": "",
-        "responses": {
-          "200": {
-            "description": "",
-            "schema": {
-              "$ref": "#/definitions/getOne"
             }
           }
         }
@@ -59,7 +38,7 @@
         "type": "object",
         "properties": {}
       },
-      "example": {"name": "Category Name", "id": 1}
+      "example": {"name": "film", "Category Name", "id": 1}
     }
   },
   "host": "localhost:3000",
@@ -67,4 +46,5 @@
   "schemes": [
     "http"
   ]
+
 }

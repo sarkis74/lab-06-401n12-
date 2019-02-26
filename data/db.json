@@ -1,0 +1,45 @@
+{
+  "entertainment": [
+    {
+"_id": 1,
+"name": "film",
+"display_name": "Black Panther",
+"description": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past."
+    },
+  {
+"_id": 2,
+"name": "tv show",
+"display_name": "Game of Thrones",
+"description": "Nine noble families fight for control over the mythical lands of Westeros, while an ancient enemy returns after being dormant for thousands of years. "
+    },
+  {
+"_id": 3,
+"name": "musical",
+"display_name": "Hamilton",
+"description": "The play has two acts, telling Hamilton's story through major events in his life and American history. It tells Hamilton's life from beginning to end along with various other characters."
+    },
+    {
+    "_id": 4,
+    "name": "animation",
+    "display_name": "Rick and Morty",
+    "description": "An animated series that follows the exploits of a super scientist and his not-so-bright grandson."
+    }
+  ],
+
+"vehicles": [
+    {
+    "_id": 1,
+    "category": "cars",
+    "name": "BMW",
+    "display_name": "X7 SAV",
+"description": "The groundbreaking BMW X7 combines innovative design and inspiring presence."
+    },
+  {
+    "_id": 2,
+    "category": "motorcycles",
+    "name": "BMW",
+    "display_name": "F 750 GS",
+    "description": "The beginning of something new. It keeps your engine running, every day. Your heart beats to the rhythm of the BMW F 750 GS. It's your ticket to the adventure."
+  }
+  ]
+}
