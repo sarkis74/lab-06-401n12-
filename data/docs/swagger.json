@@ -1,0 +1,50 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "This is to test that the json editing shows on the site's end.",
+    "version": "1.0.0",
+    "title": "Code Fellows Lab Test"
+  },
+  "paths": {
+    "/entertainment": {
+      "get": {
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": ""
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "getAll": {
+      "type": "object",
+      "items": {
+        "type": "object",
+        "properties": {}
+      },
+      "example": [
+        {"name": "Category 1", "id": 1},
+        {"name": "Category 2", "id": 2}
+      ]
+    },
+    "getOne": {
+      "type": "object",
+      "items": {
+        "type": "object",
+        "properties": {}
+      },
+      "example": {"name": "film", "Category Name", "id": 1}
+    }
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ]
+
+}
