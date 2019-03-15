@@ -38,7 +38,7 @@
         "type": "object",
         "properties": {}
       },
-      "example": {"name": "film", "Category Name", "id": 1}
+      "example": {"name": "film", "Category Name": "vehicles", "id": 1}
     }
   },
   "host": "localhost:3000",
